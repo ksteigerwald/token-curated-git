@@ -1,0 +1,12 @@
+{
+  "appName": "token-curated-git.aragonpm.eth",
+  "version": "1.0.0",
+  "roles": [
+    {
+      "name": "Allowed to approve pull requests",
+      "id": "APPROVER_ROLE",
+      "params": []
+    }
+  ],
+  "path": "contracts/TokenCuratedGit.sol"
+}
