@@ -1,6 +1,6 @@
 // A plugin is a Node module that exports a function which takes a `robot` argument
 module.exports = robot => {
-
+  console.log("- hits robot");
   // Listen for a pull request being opened or synchronized
   robot.on('pull_request', async (event, context) => {
     // Just assign a variable to make our life easier
